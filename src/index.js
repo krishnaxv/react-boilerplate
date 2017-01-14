@@ -7,5 +7,5 @@ import './styles/index.css';
 
 ReactDOM.render(
   <Routes />,
-  document.querySelector('#root')
+  document.querySelector('#app')
 );
