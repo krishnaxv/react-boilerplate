@@ -9,7 +9,10 @@ const replaceText = 'React Boilerplate';
 
 // Check if argument is specified
 if (typeof args[0] === 'undefined') {
-  throw Error('Please specify argument.');
+  console.warn(
+    'Project title argument is not specified.\nSkipping title update in index.html and README.md file.'
+  );
+  process.exit();
 }
 
 targetFileList.forEach(targetFile => {
