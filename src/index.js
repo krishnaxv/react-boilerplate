@@ -5,7 +5,4 @@ import Routes from './config/routes';
 // Styles
 import './styles/index.css';
 
-ReactDOM.render(
-  <Routes />,
-  document.querySelector('#app')
-);
+ReactDOM.render(<Routes />, document.querySelector('#app'));
