@@ -3,7 +3,11 @@ const fs = require('fs');
 // Get all arguments
 const args = process.argv.slice(2);
 // Target files
-const targetFileList = ['./public/index.html', './README.md'];
+const targetFileList = [
+  './README.md',
+  './public/index.html',
+  './public/manifest.json'
+];
 // Default text to be replaced
 const replaceText = 'React Boilerplate';
 
