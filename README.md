@@ -12,4 +12,4 @@
 
 **Usage**
 
-`yarn bootstrap Zeus` or `yarn bootstrap "Zeus - The Almighty!"`
+`yarn bootstrap Zeus` or `yarn bootstrap 'Zeus - The Almighty!'`
