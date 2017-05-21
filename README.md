@@ -8,8 +8,8 @@
 
 **Options**
 
-`yarn bootstrap` takes an optional argument `--project-title` to change project title in `index.html` and `README.md` file.
+`yarn bootstrap` takes an optional argument `--project-title` to change project title in `./public/index.html`, `./public/manifest.json` and `README.md` file.
 
 **Usage**
 
-`yarn bootstrap Zeus` or `yarn bootstrap "Fun Project"`
+`yarn bootstrap Zeus` or `yarn bootstrap "Zeus - The Almighty!"`

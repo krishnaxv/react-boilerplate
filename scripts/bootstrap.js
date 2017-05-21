@@ -10,6 +10,7 @@ const targetFileList = [
 ];
 // Default text to be replaced
 const replaceText = 'React Boilerplate';
+const re = new RegExp(replaceText, 'g');
 
 // Check if argument is specified
 if (typeof args[0] === 'undefined') {
@@ -24,7 +25,7 @@ targetFileList.forEach(targetFile => {
     if (error) {
       throw error;
     }
-    const result = data.replace(replaceText, args[0]);
+    const result = data.replace(re, args[0]);
     fs.writeFile(targetFile, result, 'utf8', error => {
       if (error) {
         throw error;
