@@ -18,7 +18,7 @@
     "react-router-dom": "^4.1.1"
   },
   "scripts": {
-    "bootstrap": "node ./scripts/bootstrap.js && yarn install && yarn start",
+    "bootstrap": "run() { node ./scripts/bootstrap.js $1 && yarn install && yarn start; }; run",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
