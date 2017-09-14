@@ -1,5 +1,7 @@
 # React Boilerplate
 
+> v0.1.0
+
 ### `yarn bootstrap`
 
 > Run `yarn bootstrap` to bootstrap the project.
